@@ -43,19 +43,18 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'enableStrictParsing' => false,
             'rules' => [
-                '' => 'SiteController/actionDefault',
-                'home' => 'SiteController/actionHome',
-                'about' => 'SiteController/actionAbout',
-                'services' => 'SiteController/actionServices',
-                'contact' => 'SiteController/actionContact',
+                '' => 'site/default',
+                'GET home' => 'site/home',
+                'GET about' => 'site/about',
+                'GET services' => 'site/services',
+                'GET contact' => 'site/contact',
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
