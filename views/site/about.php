@@ -26,8 +26,8 @@ $this->title = 'About';
             </div>
         </div>
         <div class="span4 aboutright">
-            <?php $this->load->view('boxes/bigcircle'); ?>
-            <?php $this->load->view('boxes/testimonials'); ?>
+            <?php require __DIR__ . '/../boxes/bigcircle.php'; ?>
+            <?php require __DIR__ . '/../boxes/testimonials.php'; ?>
         </div>
     </div>
 </div>
