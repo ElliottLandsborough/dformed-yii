@@ -48,6 +48,11 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '' => 'SiteController/actionDefault',
+                'home' => 'SiteController/actionHome',
+                'about' => 'SiteController/actionAbout',
+                'services' => 'SiteController/actionServices',
+                'contact' => 'SiteController/actionContact',
             ],
         ],
         */
