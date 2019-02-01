@@ -71,4 +71,14 @@ class SiteController extends Controller
     {
         return $this->render('contact');
     }
+
+    public function actionTestimonials()
+    {
+        return $this->render('testimonials');
+    }
+
+    public function actionTerms()
+    {
+        return $this->render('terms');
+    }
 }

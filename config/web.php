@@ -53,6 +53,8 @@ $config = [
                 'GET about' => 'site/about',
                 'GET services' => 'site/services',
                 'GET contact' => 'site/contact',
+                'GET testimonials' => 'site/testimonials',
+                'GET terms' => 'site/terms',
             ],
         ],
     ],

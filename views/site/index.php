@@ -38,6 +38,6 @@ $this->title = 'My Yii Application';
         </div>
         <div class="span4">
             <?php require __DIR__ . '/../boxes/testimonials.php'; ?>
-        </div>
-    </div>
-</div>
+            </div>
+            </div>
+            </div>
