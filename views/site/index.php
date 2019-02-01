@@ -12,13 +12,11 @@ $this->title = 'My Yii Application';
             <?php
             $time = date("G");
             if ($time < 12) {
-            echo 'Good morning!';
-            }
-            else if ($time >= 12 && $time <= 17) {
-            echo 'Good afternoon!';
-            }
-            else if ($time > 17) {
-            echo 'Good evening!';
+                echo 'Good morning!';
+            } else if ($time >= 12 && $time <= 17) {
+                echo 'Good afternoon!';
+            } else if ($time > 17) {
+                echo 'Good evening!';
             }
             ?>
             </h1>
