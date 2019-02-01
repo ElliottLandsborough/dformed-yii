@@ -39,7 +39,7 @@ class SiteController extends Controller
      */
     public function actionDefault()
     {
-        return $this->actionHome();
+        return  $this->redirect('home');
     }
 
     public function actionHome()
